@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Website Tutorial</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+
+  .navbar { 
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #5E4485;
+    color: #fff;
+    padding: 1% 0;
+    font-size: 1.2em;
+    border: 0;
+    }
+    .navbar-brand {
+      float: left;
+      min-height:55px;
+      padding: 0 15px 5px;
+    }
+    .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, 
+        .navbar-inverse .navbar-nav .active a:hover { 
+          color: #fff;
+          background-color: #5e4485;
+     }
+    .navbar-inverse .navbar-nav li a {
+      color: #D5D5D5;
+    }
+    .carousel-caption { 
+      top: 50%;
+      transform: translateY(-50%);
+      text-transform: uppercase;
+
+    }
+
+   .container {
+     margin: 4% auto;
+
+}
+
+    #icon { 
+      max-width: 200px;
+      margin: 1% auto; 
+    }
+
+    .btn {
+      font-size: 18px;
+      color: #fff;
+      padding: 12px 22px;
+      background: #5E4485;
+      border: 2px solid #fff;
+    }
+
+    @media (max-width: 600px) {
+      .carousel-caption {display: none;
+
+      }
+
+    h4 { font-size: 1.7em;
+
+    }
+   #icon { 
+       max-width: 150px;
+
+   }
+
+    }
+
+  </style>
+</head>
+body>
+
+	  <nav class="navbar navbar-inverse">
+	      <div class="container-fluid">
+			  <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-
+          target="#myNavbar">
+					   <span class="icon-bar"></span>
+					   <span class="icon-bar"></span>
+					   <span class="icon-bar"></span>
+				  </button>
+                  <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+				 </div>
+				 <div class="collapse navbar-collapse" id="myNavbar">
+					 <ul class="nav navbar-nav navbar-right">
+						 <li class="class"><a href=""></a></li>
+             <li><a href="#">About</a></li>
+             <li><a hrefs="#">Services</a></li>
+             <li><a hrefs="#">Testimonials</a></li>
+             <li><a hrefs="#">Contacts</a></li>
+					 </ul>
+
+				 </div>
+				 
+			 </div>
+
+	     </nav>
+       <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+         <div class="carousel-inner" role="listbox">
+             <div class="item active">
+               <img src="img/mountains.png">
+               <div class="carousel-caption">
+                   <h1>Come along</h1>
+                   <br>
+                   <button type="button" class="btn btn-default">Get Started</button>
+                   </div>
+                   </div> <!--- End Active --->
+                   <div class="item">
+                      <img src="img/snow.png">
+                   </div>
+                   <div class="item">
+                     <img src="img/red.png">
+                  </div>
+         </div>   
+         <!--- Beginning of Slider Control -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev
+            ">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next
+            ">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+              </a>
+       </div> <!--- End of Slider -->
+
+ <div class="container text-center">
+   <h2>What We're Using</h2>
+   <div class="row">
+     <div class="col-sm-4">
+         <img src="img/hand.png" id="icon">
+         <h4>HTML5</h4>
+     </div>
+     <div class="col-sm-4">
+       <img src="img/study.png" id="icon">
+        <h4>Bootstrap</h4>
+     </div>
+        <div class="col-sm-4">
+          <img src="img/servant.png" id="icon">
+          <h4>CSS3</h4>
+
+     </div>
+
+   </div>
+</div>
+
+<div class="container">
+     <div class="row">
+       <div class="col-md-6">
+         <h4>Good Songs</h4>
+         <p>Yeah, this album is dedicated
+          To all the teachers that told me I'd never amount to nothin'
+          To all the people that lived above the buildings that I was hustlin' in front of
+          Called the police on me when I was just tryin' to make some money to feed my daughter (it's all good)
+          And all the niggas in the struggle You know what I'm sayin'? It's all good, baby baby
+          It was all a dream, I used to read Word Up! magazine Salt-n-Pepa and Heavy D up in the limousine
+          Hangin' pictures on my wall  Every Saturday Rap Attack, Mr. Magic, Marley Marl
+          I let my tape rock 'til my tape popped  Smokin' weed in Bambu, sippin' on Private Stock
+          Way back, when I had the red and black lumberjack With the hat to match
+          Remember Rappin' Duke? Duh-ha, duh-ha You never thought that hip-hop would take it this far
+          Now I'm in the limelight 'cause I rhyme tight Time to get paid, blow up like the World Trade
+          Born sinner, the opposite of a winner Remember when I used to eat sardines for dinner
+          Peace to Ron G, Brucie B, Kid Capri  Funkmaster Flex, Lovebug Starski
+          I'm blowin' up like you thought I would  Call the crib, same number, same hood
+          It's all good (It's all good)    And if you don't know, now you know, nigga
+          You know very well Who you are     Don't let 'em hold you down
+          Reach for the stars  You had a goal   But not that many
+          'Cause you're the only one  I'll give you good and plenty
+          I made the change from a common thief To up close and personal with Robin Leach
+          And I'm far from cheap I smoke skunk with my peeps all day
+          Spread love, it's the Brooklyn way The Moët and Alizé keep me pissy
+          Girls used to diss me  Now they write letters 'cause they miss me
+          I never thought it could happen, this rappin' stuff I was too used to packin' gats and stuff
+          Now honeys play me close like butter play toast  From the Mississippi down to the East Coast
+          Condos in Queens, indo for weeks  Sold-out seats to hear Biggie Smalls speak
+          Livin' life without fear Puttin' five karats in my baby girl's ear
+          Lunches, brunches, interviews by the pool
+          Considered a fool 'cause I dropped out of high school
+          Stereotypes of a black male misunderstood
+          And it's still all good
+          And if you don't know, now you know, nigga
+          You know very well
+          Who you are
+          Don't let 'em hold you down
+          Reach for the stars
+          You had a goal
+          But not that many
+          'Cause you're the only one
+          I'll give you good and plenty
+          Super Nintendo, Sega Genesis
+          When I was dead broke, man, I couldn't picture this
+          50-inch screen, money-green leather sofa
+          Got two rides, a limousine with a chauffeur
+          Phone bill about two G's flat
+          No need to worry, my accountant handles that
+          And my whole crew is loungin'
+          Celebratin' every day, no more public housin'
+          Thinkin' back on my one-room shack
+          Now my mom pimps a Ac' with minks on her back
+          And she loves to show me off of course
+          Smiles every time my face is up in The Source
+          We used to fuss when the landlord dissed us
+          No heat, wonder why Christmas missed us
+          Birthdays was the worst days
+          Now we sip Champagne when we thirsty
+          Uh, damn right, I like the life I live
+          'Cause I went from negative to positive
+          And it's all (It's all good, nigga)
+          And if you don't know, now you know, nigga
+          You know very well
+          Who you are
+          Don't let 'em hold you down
+          And if you don't know, now you know, nigga
+          Reach for the stars
+          You had a goal
+          But not that many
+          'Cause you're the only one
+          And if you don't know, now you know, nigga
+          I'll give you good and plenty
+          Representin' B-Town in the house
+          Junior Mafia, mad flavor
+          Uh, uh, yeah, aight
+          You know very well
+          Who you are
+          Don't let 'em hold you down
+          Reach for the stars
+          You had a goal
+          But not that many
+          'Cause you're the only one
+          I'll give you good and plenty
+          Biggie Smalls, it's all good, nigga
+          Junior Mafia, it's all good, nigga
+          Bad Boy, it's all good, nigga
+          It's all good
+          That's right, '94
+          And on and on, and on and on
+          You know very well
+          Who you are
+          Don't let 'em hold you down
+          Reach for the stars</p>
+          <br>
+         <p>I never meant to cause you any sorrow
+          I never meant to cause you any pain
+          I only wanted one time to see you laughing
+          I only wanted to see you laughing in the purple rain
+          Purple rain, purple rain
+          Purple rain, purple rain
+          Purple rain, purple rain
+          I only wanted to see you bathing in the purple rain
+          I never wanted to be your weekend lover
+          I only wanted to be some kind of friend,
+          Hey Baby, I could never steal you from another
+          It's such a shame our friendship had to end
+          Purple rain, purple rain
+          Purple rain, purple rain
+          Purple rain, purple rain
+          I only wanted to see you underneath the purple rain
+          Honey, I know, I know, I know times are changin'
+          It's time we all reach out for something new, that means you too
+          You say you want a leader, but you can't seem to make up your mind
+          And I think you better close it and let me guide you to the purple rain
+          Purple rain, purple rain
+          Purple rain, purple rain
+          If you know what I'm singin' about up here,
+          Come on raise your hand
+          Purple rain, purple rain
+          I only want to see you, only want to see in the purple rain</p>
+         </div>
+          <div class="col-md-6">
+         <img src="img/bootstrap2.jpg" class="img-responsive">
+       </div>
+     </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-3 col-m3 col-sm-6 col-xs-12">
+      <h4>Movie Quotes</h4>
+      <p>Life moves pretty fast. If you don’t stop and look around once in a while, you could miss it.
+        Bueller . . . Bueller . . . Bueller.Inconceivable!
+        Hello, my name is Inigo Montoya. You killed my father. Prepare to die.
+        Mawwiage is what bwings us togethah today.
+        As you wish</p>
+      </div>
+       <div class="col-lg-3 col-m3 col-sm-6 col-xs-12">
+      <img src="img/bootstrap.png" class="img-responsive">
+    </div>
+    <div class="col-lg-3 col-m3 col-sm-6 col-xs-12">
+      <h4>Movie Quotes</h4>
+      <p>Life moves pretty fast. If you don’t stop and look around once in a while, you could miss it.
+        Bueller . . . Bueller . . . Bueller.Inconceivable!
+        Hello, my name is Inigo Montoya. You killed my father. Prepare to die.
+        Mawwiage is what bwings us togethah today.
+        As you wish</p>
+      </div>
+       <div class="col-lg-3 col-m3 col-sm-6 col-xs-12">
+      <img src="img/html5.png" class="img-responsive">
+  </div>
+</div>
+
+</body>
+</html>
